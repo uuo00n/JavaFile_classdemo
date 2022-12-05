@@ -11,7 +11,7 @@
     <title>form</title>
 </head>
 <body>
-<form action="file_upload" method="post" enctype="multipart/form-data">
+<form action="uploadservlet" method="post" enctype="multipart/form-data">
     <input type="file" name="im">
     <br>
     <input type="submit" value="开始上传">

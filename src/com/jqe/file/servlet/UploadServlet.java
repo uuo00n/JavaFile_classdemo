@@ -11,7 +11,7 @@ import java.io.*;
  * @author uuo00_n(Hwang Jumbo)
  * @Date 2022/12/2 10:44
  */
-@WebServlet(name = "UploadServlet")
+@WebServlet("/uploadservlet")
 public class UploadServlet extends HttpServlet {
     private PrintWriter out;
 
